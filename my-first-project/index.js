@@ -1,3 +1,4 @@
-var hello = "Hello";
-
-console.log(hello);
+if (true) {
+  let world = "🌏";
+}
+console.log(world);
