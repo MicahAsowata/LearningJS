@@ -1,2 +1,3 @@
+const greeting = "Hello";
 const place = "🌍";
-console.log("Hello %s", place);
+console.log(`${greeting}, ${place}`);
