@@ -1,5 +1,4 @@
+const greeting = "👋🏿";
 const world = "🌍";
 
-console.log(world);
-
-world = "🌍🕑";
+console.log(greeting + world);
