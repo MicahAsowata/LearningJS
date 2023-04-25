@@ -1,4 +1,3 @@
-const myName = "Micah";
-const tool = "💻";
+const fun = true;
 
-console.log(`I am ${myName}. I use a ${tool} to work`);
+console.log(`JavaScript is not fun is a ${!fun} statement`);
