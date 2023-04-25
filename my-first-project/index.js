@@ -1,4 +1,4 @@
-const numOne = 1;
-const strOne = "1";
+const myName = "Micah";
+const tool = "💻";
 
-console.log(numOne + parseInt(strOne));
+console.log(`I am ${myName}. I use a ${tool} to work`);
