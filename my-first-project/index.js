@@ -1,1 +1,2 @@
-console.log("Hello World 🌍 🌎🌏");
+const place = "🌍";
+console.log("Hello %s", place);
