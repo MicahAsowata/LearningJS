@@ -1,6 +1,4 @@
-/**
- * greeting greets you. It is has simply as that.
- */
+// let name = prompt("What is your name");
 
 function greeting(name) {
   return `Hello ${name}`;
