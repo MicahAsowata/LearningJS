@@ -1,4 +1,4 @@
-const greeting = "👋🏿 ";
-const world = "🌍";
+const numOne = 1;
+const strOne = "1";
 
-console.log(greeting + world);
+console.log(numOne + strOne);
