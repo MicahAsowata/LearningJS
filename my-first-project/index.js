@@ -1,7 +1,10 @@
-// let name = prompt("What is your name");
+/**
+ * This block of code reverses a string. I don't understand how, but it works.
+ */
 
-function greeting(name) {
-  return `Hello ${name}`;
-}
+let value = "some text";
+let reversedValue = "";
 
-console.log(greeting("Micah")); // Displays: Hello Micah
+value.split("").forEach((char) => (reversedValue = char + reversedValue));
+
+console.log(reversedValue);
