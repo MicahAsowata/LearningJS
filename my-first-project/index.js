@@ -1,10 +1,12 @@
-/**
- * This block of code reverses a string. I don't understand how, but it works.
- */
+// This does not need a comment for obvious reasons
+function reverseString(text) {
+  let reversedValue = "";
 
-let value = "some text";
-let reversedValue = "";
+  text.split("").forEach((char) => {
+    reversedValue = char + reversedValue;
+  });
 
-value.split("").forEach((char) => (reversedValue = char + reversedValue));
+  return reversedValue;
+}
 
-console.log(reversedValue);
+console.log(reverseString("Micah"));
