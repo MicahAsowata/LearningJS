@@ -1,4 +1,5 @@
-if (true) {
-  let world = "🌏";
-}
+const world = "🌍";
+
 console.log(world);
+
+world = "🌍🕑";
