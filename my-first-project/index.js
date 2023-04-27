@@ -1,6 +1,6 @@
-const num = "150";
-const flo = "1.50";
+const num = 150;
+const flo = 1.5;
 
-console.log("-- Strings to Float --");
-console.log(parseInt(flo));
-console.log(parseInt("ABC"));
+console.log("-- Numbers to Strings --");
+console.log(num.toString());
+console.log(flo.toString());
