@@ -1,5 +1,7 @@
-const num = 100;
+const num = "150";
+const flo = "1.50";
 
-console.log("-- Advanced Math (Math Object) --");
-console.log(Math.PI);
-console.log(Math.sqrt(num));
+console.log("-- Strings to Int --");
+console.log(parseInt(num));
+console.log(parseInt("ABC"));
+console.log(parseInt("0xF"));
