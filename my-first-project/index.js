@@ -11,10 +11,10 @@ const sayHello = (person) => {
   console.log(person.firstName);
 };
 
-console.log("-- typeof --");
-console.log(typeof people);
-console.log(typeof one);
-console.log(typeof msg);
-console.log(typeof b);
-console.log(typeof person);
-console.log(typeof sayHello);
+console.log("-- instanceof --");
+console.log(people instanceof Array);
+console.log(one instanceof Number);
+console.log(msg instanceof String);
+console.log(b instanceof Boolean);
+console.log(person instanceof Object);
+console.log(sayHello instanceof Function);
