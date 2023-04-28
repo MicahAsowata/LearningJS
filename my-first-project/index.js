@@ -1,6 +1,10 @@
-const num = 150;
-const flo = 1.5;
+const code = function criticalCode() {
+  throw "throw and exception";
+};
 
-console.log("-- Numbers to Strings --");
-console.log(num.toString());
-console.log(flo.toString());
+const log = function logException(theException) {
+  console.log(theException);
+};
+
+console.log("-- Throw exception --");
+throw "myexception";
