@@ -6,9 +6,9 @@ const logException = (theException) => {
   console.log(theException);
 };
 
-console.log("-- Try catch --");
+console.log("-- Throwing in Try Catch --");
 try {
-  criticalCode();
+  throw "Checking";
 } catch (ex) {
   console.log("handling the exception");
   logException(ex);
