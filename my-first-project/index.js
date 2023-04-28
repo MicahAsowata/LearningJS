@@ -1,5 +1,10 @@
 const statusCode = 400;
+let msg = "";
 
-if (statusCode === 200) console.log("OK!");
-else if (statusCode === 400) console.log("Error!");
-else console.log("Unknown status");
+if (statusCode === 200) {
+  msg = "OK!";
+} else {
+  msg = "Error";
+}
+
+console.log(msg);
