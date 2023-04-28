@@ -1,10 +1,4 @@
-const statusCode = 400;
-let msg = "";
-
-if (statusCode === 200) {
-  msg = "OK!";
-} else {
-  msg = "Error";
-}
+const statusCode = 200;
+const msg = statusCode === 200 ? "OK!" : "Error";
 
 console.log(msg);
