@@ -1,4 +1,5 @@
-const michmashLaunch = new Date();
-michmashLaunch.setMonth(5);
-console.log(michmashLaunch);
-console.log(michmashLaunch.getDay());
+const statusCode = 200;
+
+if (statusCode == "200") {
+  console.log("OK!");
+}
