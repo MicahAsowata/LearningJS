@@ -1,10 +1,15 @@
-const code = function criticalCode() {
-  throw "throw and exception";
+const criticalCode = () => {
+  throw "throw an exception";
 };
 
-const log = function logException(theException) {
+const logException = (theException) => {
   console.log(theException);
 };
 
-console.log("-- Throw exception --");
-throw "myexception";
+console.log("-- Try catch --");
+try {
+  criticalCode();
+} catch (ex) {
+  console.log("handling the exception");
+  logException(ex);
+}
