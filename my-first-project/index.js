@@ -2,6 +2,6 @@ const arrayLength = 5;
 const students = [];
 const teachers = Array(arrayLength);
 
-console.log("-- Creating Arrays --");
-console.log(students);
-console.log(teachers);
+console.log("-- Getting the length of the arrays --");
+console.log(students.length);
+console.log(teachers.length);
