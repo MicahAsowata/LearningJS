@@ -1,7 +1,9 @@
-const msg = "error";
+const statusCode = 500;
 
-if (msg.toUpperCase() === "ERROR") {
-  console.log("Something is wrong");
+if (statusCode === 200) {
+  console.log("OK!");
+} else if (statusCode === 400 || statusCode === 500) {
+  console.log("Error");
 } else {
-  console.log("All is well");
+  console.log("Unknown status code");
 }
