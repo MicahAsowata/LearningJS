@@ -1,14 +1,7 @@
-const statusCode = 200;
+const arrayLength = 5;
+const students = [];
+const teachers = Array(arrayLength);
 
-switch (statusCode) {
-  case 200:
-    console.log("OK!");
-    break;
-  case 400:
-  case 500:
-    console.log("Error");
-    break;
-  default:
-    console.log("Unknown status");
-    break;
-}
+console.log("-- Creating Arrays --");
+console.log(students);
+console.log(teachers);
