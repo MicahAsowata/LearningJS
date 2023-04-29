@@ -1,4 +1,7 @@
-const statusCode = 200;
-const msg = statusCode === 200 ? "OK!" : "Error";
+const name = "";
 
-console.log(msg);
+if (name) {
+  console.log("We've got a name");
+} else {
+  console.log("We don't have a name ");
+}
