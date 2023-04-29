@@ -1,9 +1,14 @@
-const statusCode = 500;
+const statusCode = 200;
 
-if (statusCode === 200) {
-  console.log("OK!");
-} else if (statusCode === 400 || statusCode === 500) {
-  console.log("Error");
-} else {
-  console.log("Unknown status code");
+switch (statusCode) {
+  case 200:
+    console.log("OK!");
+    break;
+  case 400:
+  case 500:
+    console.log("Error");
+    break;
+  default:
+    console.log("Unknown status");
+    break;
 }
