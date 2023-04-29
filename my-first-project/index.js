@@ -1,7 +1,7 @@
-const name = "";
+const msg = "error";
 
-if (!name) {
-  console.log("We don't have a name ");
+if (msg === "ERROR") {
+  console.log("Something is wrong");
 } else {
-  console.log("We've got a name");
+  console.log("All is well");
 }
