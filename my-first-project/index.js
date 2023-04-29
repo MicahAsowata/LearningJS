@@ -1,7 +1,5 @@
-const arrayLength = 5;
-const students = [];
-const teachers = Array(arrayLength);
+const usernames = ["Aaron", "Micah", "Ada"];
 
-console.log("-- Getting the length of the arrays --");
-console.log(students.length);
-console.log(teachers.length);
+console.log("-- Populating array at creation --");
+console.log(usernames[0]);
+console.log(usernames[1]);
