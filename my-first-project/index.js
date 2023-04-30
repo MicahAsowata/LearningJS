@@ -1,6 +1,6 @@
-let users = ["Aaron", "Jasmine", "Primeagen", "Micah"];
+let users = ["Jasmine", "Primeagen", "Micah"];
 
-console.log("-- Popping data from arrays --");
+console.log("-- Unshifting data into arrays --");
 console.log(users);
-console.log(users.pop());
+console.log(users.unshift("Aaron"));
 console.log(users);
