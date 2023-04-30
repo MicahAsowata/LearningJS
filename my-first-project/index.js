@@ -1,6 +1,6 @@
 let users = ["Aaron", "Jasmine", "Primeagen", "Micah"];
 
-console.log("-- Shifting array data --");
+console.log("-- Concatenating arrays--");
 console.log(users);
-console.log(users.shift());
+console.log(users.concat(["Abel", "Cain"]));
 console.log(users);
