@@ -1,6 +1,6 @@
-const usernames = ["Aaron", "Micah", "Ada"];
+let users = ["Aaron", "Jasmine", "Primeagen", "Micah"];
 
-console.log("-- Accessing values based on index --");
-console.log(usernames[0]);
-console.log(usernames[usernames.length - 1]);
-console.log(usernames[usernames.length]);
+console.log("-- Pushing data into arrays --");
+console.log(users);
+console.log(users.push("Ayo"));
+console.log(users);
