@@ -1,6 +1,6 @@
 let users = ["Aaron", "Jasmine", "Primeagen", "Micah"];
 
-console.log("-- Pushing data into arrays --");
+console.log("-- Popping data from arrays --");
 console.log(users);
-console.log(users.push("Ayo"));
+console.log(users.pop());
 console.log(users);
