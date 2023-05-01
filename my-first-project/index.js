@@ -10,4 +10,5 @@ const book = {
   },
 };
 
+book.title = "Jack and Jill";
 console.log(book);
