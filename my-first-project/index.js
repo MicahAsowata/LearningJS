@@ -10,5 +10,5 @@ const book = {
   },
 };
 
-book.title = "Jack and Jill";
+book["removeBook"]();
 console.log(book);
