@@ -1,5 +1,9 @@
-function print-ello() {
-  console.log("Hello 🌍🌏🌎");
+function printHello(name) {
+  if (name === undefined || name === "") {
+    console.log("Hello 🌍🌏🌎");
+  } else {
+    console.log(`🫡  ${name}`);
+  }
 }
 
-print-ello();
+printHello("Ruth");
