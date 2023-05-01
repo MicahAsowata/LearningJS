@@ -1,6 +1,9 @@
-let users = ["Aaron", "Jasmine", "Primeagen", "Micah"];
+let users = ["Primeagen", "Brad", "Jeff"];
 
-console.log("-- Concatenating arrays--");
-console.log(users);
-console.log(users.concat(["Abel", "Cain"]));
-console.log(users);
+console.log("-- While Loops --");
+let start = 0;
+
+while (start < users.length) {
+  console.log(users[start]);
+  start++;
+}
