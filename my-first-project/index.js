@@ -1,14 +1,7 @@
 const book = {
-  title: "Along came a spider",
-  author: "James Patterson",
-  isAvailable: true,
-  addBook: function () {
-    this.isAvailable = true;
-  },
-  removeBook: function () {
-    this.isAvailable = false;
+  checkIn: function () {
+    return this;
   },
 };
 
-book["removeBook"]();
-console.log(book);
+console.log(book.checkIn() === book);
