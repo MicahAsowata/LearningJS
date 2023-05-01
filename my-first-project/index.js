@@ -1,1 +1,5 @@
-function printHello() {}
+function printHello() {
+  console.log("Hello 🌍🌏🌎");
+}
+
+printHello();
