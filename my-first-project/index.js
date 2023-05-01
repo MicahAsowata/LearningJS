@@ -4,4 +4,4 @@ const books = [
   { title: "Give and Take", author: "Adam Grant" },
 ];
 
-console.log(JSON.stringify(book));
+console.log(JSON.stringify(books));
