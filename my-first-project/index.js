@@ -1,7 +1,5 @@
-const book = {
-  checkIn: function () {
-    return this;
-  },
-};
+function scope() {
+  return this;
+}
 
-console.log(book.checkIn() === book);
+console.log(scope() === globalThis);
