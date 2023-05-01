@@ -1,7 +1,7 @@
 let users = ["Primeagen", "Brad", "Jeff"];
 
-console.log("-- For Loops --");
+console.log("-- For..Of Loops --");
 
-for (let start = 0; start < users.length; start++) {
-  console.log(users[start]);
+for (const user of users) {
+  console.log(user);
 }
