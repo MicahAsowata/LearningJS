@@ -1,8 +1,13 @@
-const book = { title: "Along came a spider", author: "James Patterson" };
-const books = [
-  { title: "Atomic Habits", author: "James Clear" },
-  { title: "Give and Take", author: "Adam Grant" },
-];
+const book = {
+  title: "Along came a spider",
+  author: "James Patterson",
+  isAvailable: true,
+  addBook: function () {
+    this.isAvailable = true;
+  },
+  removeBook: function () {
+    this.isAvailable = false;
+  },
+};
 
-const jsonValues = JSON.stringify(books);
-console.log(JSON.parse(jsonValues));
+console.log(book);
