@@ -1,5 +1,5 @@
-function printHello() {
+function print$ello() {
   console.log("Hello 🌍🌏🌎");
 }
 
-printHello();
+print$ello();
