@@ -1,14 +1,3 @@
-/**
- * @param {string} name
- * @returns {string} "Hello 🌍🌏🌎" or `🫡  ${name}`
- */
-function printHello(name) {
-  if (name === undefined || name === "") {
-    return "Hello 🌍🌏🌎";
-  } else {
-    name = name.toString();
-    return `🫡  ${name}`;
-  }
-}
+const add = (a, b) => a + b;
 
-console.log(printHello("Ruth"));
+console.log(add(5, 7));
