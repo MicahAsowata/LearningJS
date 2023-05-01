@@ -1,6 +1,7 @@
-const book = {
-  title: "1984",
-  author: "George Orwell",
-};
+const books = [
+  { title: "Along came a spider", author: "James Patterson" },
+  { title: "Atomic Habits", author: "James Clear" },
+  { title: "Give and Take", author: "Adam Grant" },
+];
 
-console.log(book);
+console.log(books);
