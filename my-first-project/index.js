@@ -1,9 +1,7 @@
 let users = ["Primeagen", "Brad", "Jeff"];
 
-console.log("-- While Loops --");
-let start = 0;
+console.log("-- For Loops --");
 
-while (start < users.length) {
+for (let start = 0; start < users.length; start++) {
   console.log(users[start]);
-  start++;
 }
