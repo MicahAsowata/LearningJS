@@ -1,9 +1,6 @@
-/**
- *
- * @param {number} a
- * @param {number} b
- * @returns {number} a + b
- */
-const add = (a, b) => {
-  return a + b;
+const book = {
+  title: "1984",
+  author: "George Orwell",
 };
+
+console.log(book);
