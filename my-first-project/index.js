@@ -1,9 +1,14 @@
+/**
+ * @param {string} name
+ * @returns {string} "Hello 🌍🌏🌎" or `🫡  ${name}`
+ */
 function printHello(name) {
   if (name === undefined || name === "") {
-    console.log("Hello 🌍🌏🌎");
+    return "Hello 🌍🌏🌎";
   } else {
-    console.log(`🫡  ${name}`);
+    name = name.toString();
+    return `🫡  ${name}`;
   }
 }
 
-printHello("Ruth");
+console.log(printHello("Ruth"));
